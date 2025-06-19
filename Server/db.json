@@ -1,0 +1,53 @@
+{
+  "products": [
+    {
+      "id": "171549",
+      "title": "boAt Airdopes ",
+      "desc": "(Pebble Black, True Wireless)\n\n1 Year Warranty from the Date of Purchase.",
+      "category": "Electronics",
+      "price": "1500",
+      "image": "https://www.boat-lifestyle.com/cdn/shop/files/ACCG6DS7WDJHGWSH_0.png?v=1727669669"
+    },
+    {
+      "id": "350676",
+      "title": "Samsung Galaxy S24 FE 5G",
+      "desc": "Blue, 128 GB \n8 GB RAM\n1 Year Manufacturer Warranty for Device and 6 Months for In-Box Accessories",
+      "category": "Mobiles",
+      "price": "34999",
+      "image": "https://images.samsung.com/is/image/samsung/p6pim/in/sm-s721blbbins/gallery/in-galaxy-s24-fe-s721-sm-s721blbbins-thumb-543757306"
+    },
+    {
+      "id": "513689",
+      "title": "Waterproof Mattress Cover",
+      "desc": "MATERIAL Thin and light premium mattress sheet made of PP Spunbond Non Woven Dual Layer Fabric, Non plasticky feel non woven top layer & base layer Lamination ensures waterproofing. ",
+      "category": "Home & Kitchen",
+      "price": "200",
+      "image": "https://img.cdnx.in/334709/SKU-0951_4-1727253332438.jpg?width=600&format=webp"
+    },
+    {
+      "id": "356989",
+      "title": "Kurta Pant Dupatta Set",
+      "desc": "Women Cotton Rayon Kurta Pant Dupatta Set,\n\nThis set includes: Kurta with Pant & Dupatta Can be wear as Traditional wear, Casual Wear, party wear, evening wear and etc.",
+      "category": "Clothing",
+      "price": "750",
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/ethnic-set/d/d/9/s-jimny-blue-01-gosriki-original-imah5r8tnmuatrzy.jpeg?q=70"
+    },
+    {
+      "id": "694154",
+      "title": "Tutti Frutti",
+      "desc": "Natural Heaven Multicolor Tutti Frutti | Fresh Cherries for Cakes & Cookies Decoration Cherries  (400 g)",
+      "category": "Grocery",
+      "price": "350",
+      "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/nut-dry-fruit/o/k/d/400-multicolor-tutti-frutti-fresh-cherries-for-cakes-cookies-original-imagmgz42hztj7nf.jpeg?q=70"
+    },
+    {
+      "id": "785473",
+      "title": "Makeup brush",
+      "desc": "Mecovip 5 in 1 nude edition lipistic and 5 pink makeup brush  (6 Items in the set)",
+      "category": "Beauty",
+      "price": "200",
+      "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/combo-kit/l/a/r/5-in-1-nude-edition-lipistic-and-5-pink-makeup-brush-6-combo-original-imah2xygtzfh9ck9.jpeg?q=70&crop=false"
+    }
+  ],
+  "cart": []
+}
