@@ -8,20 +8,23 @@ import img6 from "../assets/Images/6.webp";
 import img7 from "../assets/Images/7.webp";
 import img8 from "../assets/Images/8.jpg";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa6";
+import "../App.css";
 const images = [img1, img2, img3, img4, img5, img6, img7, img8];
 const Banner = () => {
   return (
-  <Container fluid>
-    <Carousel fade controls indicators interval={3000} className="my-3 custom-carousel mx-3"
-    prevIcon={<span className="custom-prev"><FaChevronLeft/></span>} nextIcon={<span className="custom-next"><FaChevronRight /></span>}>
-      {images.map((img, idx) => (
-        <Carousel.Item key={idx}>
-          <img className="d-block w-100" src={img} alt={`Slide ${idx + 1}`} height="270" style={{ objectFit: "cover" }}/>
-        </Carousel.Item>
-      ))}
-    </Carousel>
-   </Container>
+    <Container fluid>
+      <Carousel fade controls indicators interval={3000} className="my-3 custom-carousel mx-3" 
+      prevIcon={<span className="custom-prev"><FaChevronLeft /></span>} nextIcon={<span className="custom-next"><FaChevronRight /></span>}
+      >
+        {images.map((img, idx) => (
+          <Carousel.Item key={idx}>
+            <img className="d-block w-100 carousel-image" src={img} alt={`Slide ${idx + 1}`}/>
+          </Carousel.Item>
+        ))}
+      </Carousel>
+    </Container>
   );
 };
+
 export default Banner;
 

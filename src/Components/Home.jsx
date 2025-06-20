@@ -45,7 +45,7 @@ const Home = () => {
           <Row className="g-3 mx-3">
             {products.length > 0 ? (
               products.map((product) => (
-                <Col xs={12} sm={6} md={3} lg={2} key={product.id}>
+                <Col xs={12} sm={6} md={4} lg={3} xl={2}key={product.id}>
                   <Card className="flipkart-card h-100 position-relative card-hover-group">
                     <div className="hover-btns position-absolute top-0 end-0 p-2 d-none flex-column">
                       <Button variant="outline-success" size="sm" className="mb-2" onClick={() => handleEdit(product.id)}>

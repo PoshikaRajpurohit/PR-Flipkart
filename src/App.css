@@ -5,6 +5,8 @@
 body{
   background: #f1f3f6;
 }
+
+
 /* HEADER.CSS */
 @media (min-width: 992px) {
   .hover-dropdown:hover .dropdown-menu {
@@ -13,6 +15,9 @@ body{
     text-align: left;
   }
 }
+
+
+
 /* HOME-PAGE CSS */
 .flipkart-card {
   border: none;
@@ -73,8 +78,11 @@ body{
   font-size: 14px;
   font-weight: 500;
 }
-/* Cart.css */
 
+
+
+
+/* Cart.css */
 .cart-container {
   background-color: #f1f3f6;
   min-height: 100vh;
@@ -148,6 +156,7 @@ body{
   background-color: #2874f0;
   border: none;
 }
+
 
 
 /* AddProduct */
@@ -239,6 +248,7 @@ button[type="submit"]:hover {
 
 
 
+
 /* Product Cards */
 .search-card {
   transition: transform 0.2s ease, box-shadow 0.2s ease;
@@ -247,7 +257,6 @@ button[type="submit"]:hover {
   overflow: hidden;
   height: 100%;
 }
-
 .search-card:hover {
   transform: scale(1.02);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
@@ -282,6 +291,8 @@ button.btn-link {
 }
 
 
+
+
 /* BANNER.CSS */
 .custom-carousel .custom-prev,
 .custom-carousel .custom-next {
@@ -299,23 +310,64 @@ button.btn-link {
   top: 50%;
   transform: translateY(-50%);
 }
-
 .custom-carousel .custom-prev {
   position: absolute;
   left: -10px;
   margin-left: 10px;
 }
-
 .custom-carousel .custom-next {
   position: absolute;
   right: -10px;
   margin-right: 10px; 
 }
-
 .custom-carousel .carousel-indicators [data-bs-target] {
   background-color: #999;
 }
 .custom-carousel .carousel-indicators .active {
   background-color: #2874f0;
 }
+.carousel-image {
+  height: 270px;
+  object-fit: cover;
+  width: 100%;
+  border-radius: 10px;
+}
+@media (max-width: 768px) {
+  .carousel-image {
+    height: 200px;
+  }
+.custom-carousel .custom-prev,
+.custom-carousel .custom-next{
+  width: 30px;
+  height: 50px;}
+  .custom-prev, .custom-next {
+  font-size: 1.5rem;
+  color: #000;
+  background: white;
+  padding: 6px 10px;
+  border-radius: 50%;
+}
+}
+@media (max-width: 576px) {
+  .carousel-image {
+    height: 160px;
+  }
+}
+.custom-prev:hover, .custom-next:hover {
+  background: rgba(255, 255, 255, 1);
+}
 
+
+
+
+/* view.css */
+@media (max-width: 768px) {
+  .image-gallery-row img {
+    height: 50px !important;
+  }
+
+  .carousel-buttons {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

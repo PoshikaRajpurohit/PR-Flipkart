@@ -29,7 +29,7 @@
       "title": "Kurta Pant Dupatta Set",
       "desc": "Women Cotton Rayon Kurta Pant Dupatta Set,\n\nThis set includes: Kurta with Pant & Dupatta Can be wear as Traditional wear, Casual Wear, party wear, evening wear and etc.",
       "category": "Clothing",
-      "price": "750",
+      "price": "850",
       "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/ethnic-set/d/d/9/s-jimny-blue-01-gosriki-original-imah5r8tnmuatrzy.jpeg?q=70"
     },
     {
@@ -49,5 +49,14 @@
       "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/combo-kit/l/a/r/5-in-1-nude-edition-lipistic-and-5-pink-makeup-brush-6-combo-original-imah2xygtzfh9ck9.jpeg?q=70&crop=false"
     }
   ],
-  "cart": []
+  "cart": [
+    {
+      "id": "fe4f",
+      "productId": "171549",
+      "title": "boAt Airdopes ",
+      "price": "1500",
+      "image": "https://www.boat-lifestyle.com/cdn/shop/files/ACCG6DS7WDJHGWSH_0.png?v=1727669669",
+      "qty": 1
+    }
+  ]
 }
